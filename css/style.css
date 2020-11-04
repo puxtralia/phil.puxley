@@ -1,0 +1,199 @@
+body{
+	background-color: white;
+	color: white;
+}
+
+.strong{
+	font-weight:bold;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a{
+	font-family: 'Underdog', cursive;
+	color: white;
+}
+
+a:hover {
+	color: grey;
+}
+
+hr{
+	border: 2px solid black;
+}
+
+/*NAVBAR*/
+
+nav{
+	width: 100%;
+	background: rgb(7,15,15);
+	background: radial-gradient(circle, 
+	rgba(7,15,15,1) 0%, rgba(0,0,0,1) 0%, rgba(28,111,110,1) 92%, rgba(14,114,120,1) 100%);
+	height: 80px;
+	margin: 0px;
+	min-width: 650px;
+	border: 5px solid rgba(0 0 0 .5);
+	box-shadow: 5px 10px rgba(0,0,0,.4);
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	z-index: 1;
+}
+
+nav .nametag{
+	font-family: 'Underdog', cursive;
+	font-size:  40px;
+	color: white;
+	display: block;
+	height: 50px;
+	width: 250px;
+	cursor: pointer;
+	top: 50%;
+	left: 10px;
+	margin-top: -33px;
+	position: absolute;
+}
+
+nav ul{
+	padding: 0;
+	margin: 0;	
+	position: absolute;
+	right: 10px;
+	margin-top: 20px;
+
+}
+
+nav ul li{
+	display: inline;
+	margin-right: 20px;
+}
+
+nav ul li a{
+	font-size:  30px;
+	right: 20px;
+	top: 50%
+	margin: 40px;
+}
+
+.anchor{
+	position: relative;
+	top: -80px;
+}
+
+.boxshadow{
+	margin: 13px 0;
+	padding: 13px;
+	border: 3px solid red;
+	height: 999px;
+	box-shadow: 12px 10px 5px rgba(0,0,0,.4);
+}
+
+/*NAV Links*/
+	
+.about-info{
+	color: grey;
+	size: 30px;
+	margin: 15px 10px 50px 10px
+}
+
+.about-info h1{
+	color: black;
+	size: 30px;
+}
+
+.music-info{
+	color: grey;
+	size: 30px;
+	margin: 5px 10px
+}
+
+.music-info h1{
+	color: black;
+	size: 30px;
+}
+
+.musiclinks{
+	margin: 0px;
+	float: right;
+}
+
+.musiclinks ul li{
+	font-size: 20px;
+	display: inline-block;
+	border-radius: 5px;
+	padding: 0px 3px;
+	border: 2px solid white;
+}
+
+
+.concertbanner{
+	width: 100%;
+}
+
+
+.photography-info h1{
+	color: black;
+	size: 30px;
+
+}
+
+.photography-info{
+	color: grey;
+	size: 30px;
+	width: 100%;
+	min-width: 650px;
+	justify-content: center;
+	margin: 5px 10px
+}
+
+
+
+.cat{
+	width: 200px;
+	border-radius: 5px;
+	margin: 5px 15px 2px 2px;
+	float: left;
+}
+
+.baby{
+	width: 30%;
+	border-radius: 5px;
+	margin: 5px 15px 2px 2px;	
+}
+
+.bug{
+	width: 30%;
+	border-radius: 5px;
+	margin: 5px 15px 2px 2px;
+}
+
+.fly{
+	width: 30%;
+	border-radius: 5px;
+	margin: 5px 15px 2px 2px;
+	
+}
+
+.web-development-info{
+	clear: both;
+	color: grey;
+	size: 30px;
+	margin: 5px 10px
+}
+
+.web-development-info h1{
+	color: white;
+	size: 30px;
+}
+
+
+
+.footerpic{
+	display: block;
+	 margin-left: auto;
+ 	 margin-right: auto;
+	width: 50%;
+}
+
