@@ -169,7 +169,7 @@ nav ul li a{
 }
 
 .gallery{
-	max-width: 1500px;
+
   line-height: 0;
   -webkit-column-count: 3;
   -webkit-column-gap:   0px;
@@ -186,7 +186,13 @@ nav ul li a{
 }
 
 
-@media screen and (max-width: 3000px) {
+@media screen and (max-width: 2500px) {
+  .gallery {
+  -moz-column-count:    5;
+  -webkit-column-count: 5;
+  column-count:         5;
+  }
+@media screen and (max-width: 2000px) {
   .gallery {
   -moz-column-count:    4;
   -webkit-column-count: 4;
