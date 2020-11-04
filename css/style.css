@@ -54,6 +54,8 @@ nav .nametag{
 	left: 10px;
 	margin-top: -33px;
 	position: absolute;
+
+
 }
 
 nav ul{
@@ -78,10 +80,24 @@ nav ul li a{
 	margin: 40px;
 }
 
-.anchor{
+#music-nav{
 	position: relative;
 	top: -80px;
+	display: hidden;
 }
+
+#gallery-nav{
+	position: relative;
+	top: -80px;
+	display: hidden;
+}
+
+#contact-nav{
+	position: relative;
+	top: -80px;
+	display: hidden;
+}
+
 
 .boxshadow{
 	margin: 13px 0;
@@ -134,13 +150,13 @@ nav ul li a{
 }
 
 
-.photography-info h1{
+.gallery-info h1{
 	color: black;
 	size: 30px;
 
 }
 
-.photography-info{
+.gallery-info{
 	color: grey;
 	size: 30px;
 	width: 100%;
@@ -162,7 +178,7 @@ nav ul li a{
 
 }
 
-.photography-info img{
+.gallery-info img{
 	width: 100%;
 	height: auto;
 }
