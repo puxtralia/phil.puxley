@@ -1,6 +1,7 @@
 body{
 	background-color: white;
 	color: black;
+	font-family: 'Righteous', cursive;
 }
 
 .strong{
@@ -9,10 +10,11 @@ body{
 
 a:link {
 	text-decoration: none;
+
 }
 
 a{
-	font-family: 'Underdog', cursive;
+	font-family: 'Righteous', cursive;
 	color: black;
 }
 
@@ -43,7 +45,7 @@ nav{
 }
 
 nav .nametag{
-	font-family: 'Underdog', cursive;
+	font-family: 'Righteous', cursive;
 	font-size:  40px;
 	color: white;
 	display: block;
