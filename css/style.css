@@ -215,31 +215,6 @@ nav ul li a{
 }
 
 
-.cat{
-	width: 200px;
-	border-radius: 5px;
-	margin: 5px 15px 2px 2px;
-	float: left;
-}
-
-.baby{
-	width: 30%;
-	border-radius: 5px;
-	margin: 5px 15px 2px 2px;	
-}
-
-.bug{
-	width: 30%;
-	border-radius: 5px;
-	margin: 5px 15px 2px 2px;
-}
-
-.fly{
-	width: 30%;
-	border-radius: 5px;
-	margin: 5px 15px 2px 2px;
-	
-}
 
 .contact-info{
 	clear: both;
