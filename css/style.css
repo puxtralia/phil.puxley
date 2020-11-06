@@ -35,7 +35,7 @@ nav{
 	rgba(7,15,15,1) 0%, rgba(0,0,0,1) 0%, rgba(28,111,110,1) 92%, rgba(14,114,120,1) 100%);
 	height: 80px;
 	margin: 0px;
-	min-width: 700px;
+	min-width: 400px;
 	border: 5px solid rgba(0 0 0 .5);
 	box-shadow: 5px 10px rgba(0,0,0,.4);
 	position: -webkit-sticky;
@@ -77,12 +77,31 @@ nav ul li{
 
 nav ul li a{
 	color: white;
-	font-size:  30px;
 	right: 20px;
 	top: 50%
 	margin: 40px;
 	z-index: 1;
 }
+
+.links li{
+	font-size: 30px;
+}
+
+@media screen and (max-width: 700px) {
+  .links li {
+  	font-size: 20px;
+
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .links li {
+  	font-size: 10px;
+
+  }
+}
+
+
 
 #music-nav{
 	position: relative;
@@ -164,7 +183,7 @@ nav ul li a{
 	color: grey;
 	size: 30px;
 	width: 100%;
-	min-width: 650px;
+	min-width: 400px;
 	justify-content: center;
 	margin: 5px 10px;
 
