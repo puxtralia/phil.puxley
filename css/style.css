@@ -1,19 +1,7 @@
 body{
 	background-color: white;
 	color: black;
-	font-size: 20px;
 	font-family: 'Righteous', cursive;
-	padding: 10px;
-}
-
-#popup{
-	position: absolute;
-	top: 11px;right: 11px;bottom: 11px;left: 11px;
-	text-align: center;
-	background-image: url(img/pux8.jpg);
-	width: 100%;
-	height: 100%;
-	z-index: 1;
 }
 
 .strong{
@@ -53,7 +41,7 @@ nav{
 	position: -webkit-sticky;
 	position: sticky;
 	top: 0;
-	z-index: 2;
+	z-index: 1;
 }
 
 nav .nametag{
