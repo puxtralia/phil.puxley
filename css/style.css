@@ -57,6 +57,9 @@ nav ul {
   right: 10px;
   margin-top: 20px;
 }
+ul {
+  padding: 0;
+}
 
 h4 {
   color: rgb(48, 48, 48);

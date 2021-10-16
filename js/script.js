@@ -1,12 +1,14 @@
 
 
-var popupWindow = document.getElementById('popupWindow');
-var closePopup = document.getElementById("closePopup");
+// const navLinks = document.querySelectorAll('.nav-item')
+// const menuToggle = document.getElementById('navbarSupportedContent')
+// const bsCollapse = new bootstrap.Collapse(menuToggle)
+// navLinks.forEach((l) => {
+//     l.addEventListener('click', () => { bsCollapse.toggle() })
+// })
 
-closePopup.addEventListener('click', close);
-
-function close() {
-	console.log('close')
-	popupWindow.style.display = 'none';
-
-};
+$('.navbar-nav li a').on('click', function(){
+    if(!$( this ).hasClass('dropdown-toggle')){
+        $('.navbar-collapse').collapse('hide');
+    }
+});
