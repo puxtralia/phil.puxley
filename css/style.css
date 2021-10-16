@@ -1,18 +1,17 @@
-body{
-	background-color: rgb(255, 255, 255);
-	color: black;
-	font-size: 20px;
-	font-family: 'Righteous', cursive;
-	padding: 10px;
+body {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  font-size: 20px;
+  font-family: "Righteous", cursive;
+  padding: 10px;
 }
 
-
-.strong{
-	font-weight:bold;
+.strong {
+  font-weight: bold;
 }
 
 a:link {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 /* a{
@@ -22,175 +21,182 @@ a:link {
 } */
 
 a:hover {
-	color: grey;
+  color: grey;
 }
 
-hr{
-	border: 2px solid black;
+hr {
+  border: 2px solid black;
 }
 
 /*NAVBAR*/
-.navbar-brand{
-	font-size:  30px;
+.navbar-brand {
+  font-size: 30px;
 }
 
-nav .nametag{
-	font-family: 'Righteous', cursive;
-	font-size:  40px;
-	color: rgb(80, 80, 80);
-	display: block;
-	height: 50px;
-	width: 300px;
-	cursor: pointer;
-	top: 50%;
-	left: 10px;
-	margin-top: -33px;
-	position: absolute;
+nav .nametag {
+  font-family: "Righteous", cursive;
+  font-size: 40px;
+  color: rgb(80, 80, 80);
+  display: block;
+  height: 50px;
+  width: 300px;
+  cursor: pointer;
+  top: 50%;
+  left: 10px;
+  margin-top: -33px;
+  position: absolute;
+}
+.flexcenter {
+  display: flex;
+  justify-content: center;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  right: 10px;
+  margin-top: 20px;
 }
 
-nav ul{
-	padding: 0;
-	margin: 0;	
-	position: absolute;
-	right: 10px;
-	margin-top: 20px;
-
+h4 {
+  color: rgb(48, 48, 48);
 }
 
-nav ul li{
-	display: inline;
-	margin-right: 20px;
-	
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+li {
+  text-align: center;
+  list-style: none;
 }
 
-nav ul li a{
-	color: rgb(0, 0, 0);
-	right: 20px;
-	top: 50%;
-	margin: 40px;
-	z-index: 1;
+nav ul li a {
+  color: rgb(0, 0, 0);
+  right: 20px;
+  top: 50%;
+  margin: 40px;
+  z-index: 1;
 }
 
-.links li{
-	font-size: 30px;
+.links li {
+  font-size: 30px;
 }
 
 @media screen and (max-width: 700px) {
   .links li {
-  	font-size: 20px;
-
+    font-size: 20px;
   }
 }
 
 @media screen and (max-width: 600px) {
   .links li {
-  	font-size: 10px;
-
+    font-size: 10px;
   }
 }
 
-#music-nav{
-	position: relative;
-	top: -80px;
-	display: hidden;
+#music-nav {
+  position: relative;
+  top: -80px;
+  display: hidden;
 }
 
-#gallery-nav{
-	position: relative;
-	top: -80px;
-	display: hidden;
+#gallery-nav {
+  position: relative;
+  top: -80px;
+  display: hidden;
 }
 
-#contact-nav{
-	position: relative;
-	top: -80px;
-	display: hidden;
+#contact-nav {
+  position: relative;
+  top: -80px;
+  display: hidden;
 }
 
-.boxshadow{
-	margin: 13px 0;
-	padding: 13px;
-	border: 3px solid red;
-	height: 999px;
-	box-shadow: 12px 10px 5px rgba(0,0,0,.4);
+.boxshadow {
+  margin: 13px 0;
+  padding: 13px;
+  border: 3px solid red;
+  height: 999px;
+  box-shadow: 12px 10px 5px rgba(0, 0, 0, 0.4);
 }
 
 /*NAV Links*/
-	
-.about-info{
-	color: grey;
-	size: 30px;
-	margin: 15px 10px 50px 10px
+
+.about-info {
+  color: grey;
+  size: 30px;
+  margin: 15px 10px 50px 10px;
 }
 
-.about-info h1{
-	color: black;
-	size: 30px;
+.about-info h1 {
+  color: black;
+  size: 30px;
 }
 
-.music-info{
-	color: grey;
-	size: 30px;
-	margin: 5px 10px
+.music-info {
+  color: grey;
+  size: 30px;
+  margin: 5px 10px;
 }
 
-.music-info h1{
-	color: black;
-	size: 30px;
+.music-info h1 {
+  color: black;
+  size: 30px;
 }
 
-.musiclinks{
-	margin: 0px;
+.musiclinks {
+  margin: 0px;
   display: flex;
   justify-content: center;
 }
 
-.musiclinks ul li{
-	font-size: 20px;
-	display: inline-block;
-	border-radius: 5px;
-	padding: 0px 3px;
-	border: 2px solid black;
+.musiclinks ul li {
+  font-size: 20px;
+  display: inline-block;
+  border-radius: 5px;
+  padding: 0px 3px;
+  border: 2px solid black;
 }
 
-.concertbanner{
-	width: 100%;
+.concertbanner {
+  width: 100%;
 }
 
-.gallery-info h1{
-	color: black;
-	size: 30px;
+.gallery-info h1 {
+  color: black;
+  size: 30px;
 }
 
-.gallery-info{
-	color: grey;
-	size: 30px;
-	width: 100%;
-	min-width: 390px;
-	justify-content: center;
-
+.gallery-info {
+  color: grey;
+  size: 30px;
+  width: 100%;
+  min-width: 390px;
+  justify-content: center;
 }
 
-.gallery{
-
+.gallery {
   /* display: flex; */
   /* justify-content: center; */
-
+  width: 100%;
   line-height: 0;
   -webkit-column-count: 3;
-  -webkit-column-gap:   0px;
-  -moz-column-count:    3;
-  -moz-column-gap:      0px;
-  column-count:         3;
-  column-gap:           0px;  
+  -webkit-column-gap: 0px;
+  -moz-column-count: 3;
+  -moz-column-gap: 0px;
+  column-count: 3;
+  column-gap: 0px;
+}
+.center {
+  text-align: center;
+}
+.gallery-info img {
+  width: 100%;
+  height: auto;
 }
 
-.gallery-info img{
-	width: 100%;
-	height: auto;
-}
-
-@media screen and (max-width: 2500px) {
+/* @media screen and (max-width: 2500px) {
   .gallery {
   -moz-column-count:    5;
   -webkit-column-count: 5;
@@ -216,23 +222,23 @@ nav ul li a{
   -webkit-column-count: 2;
   column-count:         2;
   }
+} */
+
+.contact-info {
+  clear: both;
+  color: grey;
+  size: 30px;
+  margin: 5px 10px;
 }
 
-.contact-info{
-	clear: both;
-	color: grey;
-	size: 30px;
-	margin: 5px 10px
+.contact-info h1 {
+  color: black;
+  size: 30px;
 }
 
-.contact-info h1{
-	color: black;
-	size: 30px;
-}
-
-.footerpic{
-	display: block;
+.footerpic {
+  display: block;
   margin-left: auto;
   margin-right: auto;
-	width: 50%;
+  width: 50%;
 }
