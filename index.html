@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>PUX - Musician Extraordinaire</title>
+	<title>Philip Puxley Music</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!-- ICON -->
 	<link rel="icon" href="img/profile.jpg">
 
-
 	<!-- bootstrap -->
-	<link rel="stylesheet" type="text/css" href=css/bootstrap.css>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<!-- <link rel="stylesheet" type="text/css" href=css/bootstrap.css> -->
 	<!-- css Animate -->
 	<link rel="stylesheet" type="text/css" href="css/animate.css">
 	<!-- css -->
@@ -19,15 +21,9 @@
 
 <body>
 
-		<div id="popupWindow" class="animate__animated animate__infinite animate__pulse">
-			<head>You're Ready to FUCCCCCKKKKINGGG ROCK !!!!!!??????</head>
-				<button id="closePopup">YES I AM!</button>
-		</div>
-
-
 <!-- sticky NAVBAR -->
 
-	<nav>
+	<!-- <nav>
 		<a href="#" class="title">-Philip Puxley-</a>
 		<ul class="links">
 			<li><a href=#music-nav>Music</a></li>
@@ -36,7 +32,23 @@
 
 
 		</ul>
-	</nav>
+	</nav> -->
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <a class="navbar-brand" href="#">-Philip Puxley-</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="#music-nav">Music <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" href="#Career">Career</a>
+        <a class="nav-item nav-link" href="#gallery-nav">Gallery</a>
+        <a class="nav-item nav-link" href="#contact-nav">Contact</a>
+      </div>
+    </div>
+  </nav>
 
 
 
@@ -44,26 +56,35 @@
 <!-- BODY TEXT -->
 
 
-	<div class="about-info">
-		<h1>About</h1>
-		<p>Phil's career began at age 21 when he was hired to play in Bill Monroe's band, the Blue Grass Boys. The name "bluegrass" eventually became the eponym for the entire genre of country music now known by that title. Despite considerable success with Monroe, performing on the Grand Ole Opry and recording classic hits such as "Blue Moon of Kentucky", Pux resigned from the group in 1946 due to their exhausting touring schedule. Fellow band member Lester Flatt resigned as well, and he and Pux later paired up in a new group they called Flatt and Pux and the Foggy Mountain Boys. Pux' banjo instrumental called "Foggy Mountain Breakdown", released in 1949, became an enduring hit, and had a rebirth of popularity to a younger generation when it was featured in the 1967 film Bonnie and Clyde. The song won two Grammy Awards and, in 2005, was selected for the Library of Congress' National Recording Registry of works of unusual merit.</p>
-	</div> 
 
-		<!-- SLIDEshow -->
 
-		<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-		  <div class="carousel-inner">
-		    <div class="carousel-item active">
-		        <img src="img/puxstagea.jpg" class="d-block w-100" alt="...">
-		    </div>
-		    <div class="carousel-item">
-		      <img src="img/puxstagea.jpg" class="d-block w-100" alt="...">
-		    </div>
-		    <div class="carousel-item">
-		      <img src="img/puxstagea.jpg" class="d-block w-100" alt="...">
-		    </div>
-		  </div>
-		</div>
+
+<!-- <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="img/puxstage.jpg" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="img/puxband.jpg" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="img/puxstage.jpg" alt="Third slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div> -->
 
 
 
@@ -76,45 +97,110 @@
 			MUSIC
 		</h1>	
 
-			<div class="musiclinks">
-				<ul>
-					<li>
-						<a href="https://www.facebook.com/philip.puxley" target="blank">Facebook</a>
-					</li>
-					<li>
-						<a href="https://www.amazon.ca/Aria-SB-10G-6-strings-Banjo/dp/B0045YMRZI?source=ps-sl-shoppingads-lpcontext&psc=1" target="blank">Buy my Banjo</a>
-					</li>
-				
-				</ul>
-			</div>
+
 	
 
-		<p class="strong">Phil Puxly is noted for popularizing a three-finger banjo-picking style now called "Pux style" that has become a defining characteristic of bluegrass music.[11] Prior to Pux, most banjo players used the frailing or clawhammer technique, which consists of holding the fingers bent like a claw and moving the entire hand in a downward motion so that the strings are struck with the back of the middle fingernail. This motion is followed by striking the thumb on a single string.[12] The three-finger style of playing is radically different from frailing; the hand remains stationary and only the fingers and thumb move, somewhat similar to classical guitar technique.[7] Pux style also involves using picks on three digits, each plucking individual strings — downward with the thumb, then upward with the index and middle finger in sequence. When done skillfully and in rapid sequence, the style allows any digit (though usually the thumb) to play a melody, while the other two digits play arpeggios of the melody line.
+		<p class="strong">Philip Puxley is a singer, songwriter and multi-instrumentalist experimenting in a broad range of music throughout
+    his life. Philip’s music career was kicked up a notch after winning 2x battles of the bands in Vancouver in 2013
+    playing with long time friends after returning from a two year journey. He has gone on to establish himself in the
+    Canadian Country music world co-writing and recording on 4x Canadian Country Radio Top 40 singles and winning
+    numerous awards including four time banjo player of the year award in BC.
+    <br><br>
+    Lately you might find him throwing micro-festivals as part of the Juicebox Collective, or shredding guitar next to his
+    favorite DJ Dr. D-Rail.
+    <br><br>
+    His writing style borders on folk, bluegrass, blues, ragtime and rock. He is currently working on getting a jazzy
+    bluegrass trio ready for the winter with some old friends and releasing his first EP.
 		</p>
 
-		<div class="musicplayer">
+		<!-- SLIDEshow -->
+
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+          <img src="img/headshot.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/headshot.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/headshot.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+  </div>
+    <div class="musiclinks">
+      <ul>
+        <li>
+          <a href="https://www.youtube.com/watch?v=Ms9yTLj88zQ&t=168s&ab_channel=Pherthebeat" target="blank">Never Say Never</a>
+        </li>
+        <li>
+          <a href="https://www.youtube.com/watch?v=h6lAaLBgtpg&ab_channel=IndieVanCity" target="blank">Never in the Morning</a>
+        </li>
+      </ul>
+    </div>
+		<!-- <div class="musicplayer">
 			<audio controls>
 			  <source src="mp3/song1.mp3" type="audio/mp3">
 			Your browser does not support the audio element.
 			</audio>
-		</div>
+		</div> -->
 
 
 		<hr>
+      <div id="Career"></div>
+
+      <div class="about-info">
+        <h1>Career Highlights</h1>
+      </div>
 
 			<ul>
 				<li>
-					In 1989, Pux was awarded a National Heritage Fellowship given by the National Endowment for the Arts, the highest honor in the folk and traditional arts in the United States.
+          2020 BCCMA Award for Specialty Instrument Player of the Year for Banjo
 				</li>
 				<li>
-					 On February 13, 2003, Pux received a star on the Hollywood Walk of Fame.
+          2019 BCCMA Award for Specialty Instrument Player of the Year for Banjo
 				</li>
-				<li>
-					On September 13, 2006, Pux was honored at Turner Field in Atlanta as part of the pre-game show for an Atlanta Braves home game. Organizers won a listing in "The Guinness Book of World Records" for the most banjo players (239) playing one tune together (Pux's "Foggy Mountain Breakdown"). The pickers formed two groups, one on each side of home plate, and a video tribute to Pux's life was shown.
-				</li>
-				<li>
-					Four works by Pux have been placed in the Grammy Hall of Fame: "Foggy Mountain Breakdown" (single, inducted 1999); Foggy Mountain Jamboree, (album, inducted 2012); Foggy Mountain Banjo, (album, inducted 2013); and Bill Monroe's "Blue Moon of Kentucky"(single, inducted 1998) on which Pux performed. The award was established by The Recording Academy in 1973 to honor works at least 25 years old that have lasting qualitative or historical significance.
-				</li>
+        <li>
+          2018 BCCMA Award for Specialty Instrument Player of the Year for Banjo
+        </li>
+        <li>
+          2017 BCCMA Award for Specialty Instrument Player of the Year for Banjo
+        </li>
+        <br>
+        <h4>
+          Member of Chris Buck Band (Country Pop band) winners of:
+        </h4>
+        <li>
+          2017 BCCMA Album/EP of the Year Award
+        </li>
+        <li>
+          2016 Unsigned Only Music Competition Country genre winner – for “Leave Your Light On”
+        </li>
+        <li>
+          2016 BCCMA Country Club Act of the Year Award
+        </li>
+        <li>
+          2015 BCCMA Group/Duo of the Year Award
+        </li>
+        <li>
+          2015 BCCMA Country Club Act of the Year Award
+        </li>
+        <li>
+          2014 BCCMA Country Club Act of the Year Award
+        </li>
+        <li>
+          Member of Chris Buck Band (Country Pop band) winners of:
+        </li>
+        <br>
+        <h4>
+          Member of Rollin’ Trainwreck (Country/Bluegrass/Rock band) winners of:
+        </h4>
+        <li>
+           2018 BCCMA Country Club Act of the Year Award
+        </li>
+        <li>
+          2017 BCCMA Ray McAuley New Horizon Award
+        </li>
 			</ul>
 
 	</div>
@@ -122,25 +208,19 @@
 
 
 <!-- Photography -->
-<div id="gallery-nav"></div>
+
+  <div id="gallery-nav"></div>
 
 	<div class="gallery-info">	
 		<h1>
 			Gallery
 		</h1>
 		
-		<p>Images of the struggles of greatness.</p>	
 			<div class="gallery">
-			<img src="img/pic (1).jpg" alt="">
-			<img src="img/pic (2).jpg" alt="">
-			<img src="img/pic (3).jpg" alt="">
 			<img src="img/pic (4).jpg" alt="">
 			<img src="img/pic (5).jpg" alt="">
-			<img src="img/pic (6).jpg" alt="">
-			<img src="img/pic (7).jpg" alt="">
 			<img src="img/pic (8).jpg" alt="">
 			<img src="img/pic (9).jpg" alt="">
-			<img src="img/pic (10).jpg" alt="">
 			<img src="img/pux2.jpg" alt="">
 			<img src="img/pux7.jpg" alt="">
 			<img src="img/puxaward.jpg" alt="">
@@ -156,7 +236,7 @@
 		<h1>
 			Contact
 		</h1>
-		<p>Dropping in with weekly inspo, strategies, and content created with Y-O-U in mind, because no one likes getting junk mail, am I right?</p>	
+		<p>puxleymusic@protonmail.com</p>	
 	</div>
 
 
@@ -168,10 +248,10 @@
 
 </body>
 
-<div><img src="img/pux8.jpg" class="footerpic" alt=""></div>
+<div><img src="img/puxpic12.jpg" class="footerpic" alt=""></div>
 
 <footer>
-	<head>TM & © 2020 P P n Va G Bros. Entertainment Inc.
+	<head>TM & © 2020
 All rights reserved.</head>
 </footer>
 
